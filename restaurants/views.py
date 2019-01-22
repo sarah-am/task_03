@@ -31,6 +31,8 @@ def restaurant_detail(request):
     	'my_object': {
     		'restaurant_name':'White Castle',
 	    	'food_type':'burgers',
+	    	'color':'white',
+	    	'location':'US',
     	}
     }
     return render(request, 'detail.html', context)
