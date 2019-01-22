@@ -9,15 +9,15 @@ def restaurant_list(request):
     	'my_list':[
 	    	{
 	    		'restaurant_name':'White Castle',
-	    		'food_type':'burgers',
+	    		'food_type':'Burgers',
 	    	},
 	    	{
 	    		'restaurant_name':'Out of this Oven',
-	    		'food_type':'pizza',
+	    		'food_type':'Pizza',
 	    	},
 	    	{
 	    		'restaurant_name':'Wacky Rolls',
-	    		'food_type':'sushi',
+	    		'food_type':'Sushi',
 	    	},    	    	
     	]
 
@@ -30,8 +30,8 @@ def restaurant_detail(request):
     context = {
     	'my_object': {
     		'restaurant_name':'White Castle',
-	    	'food_type':'burgers',
-	    	'color':'white',
+	    	'food_type':'Burgers',
+	    	'color':'White',
 	    	'location':'US',
     	}
     }
